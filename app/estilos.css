@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    margin:auto;
+    box-sizing: border-box;
+    padding: 0;
+    border:0;
+    }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 480px;
+    background-color: #ffdad7;
+}
+
+main {
+    display: block;
+}
+
+.vistas {
+    display: none;
+}
+
+.inicio {
+    display: block;
+}
+
+#card_principal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color:white
+}
+
+.fa-pen-to-square {
+    cursor: pointer;
+}
+
+.fa-trash-alt{
+    cursor: pointer;
+}
+
+#card_degrade {
+    width: 80%;
+    text-align: center;
+    background: linear-gradient(#FC867D, #EF5064);
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2)
+    
+}
+
+#dosColumnas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+#titulo_principal {
+    font-size: 4.2em;
+    margin:0;
+    font-weight: 700;
+    padding-top: 0.15em;
+    font-family: "Momcake";
+    word-wrap: break-word;
+    
+}
+
+.subtituloPrin {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 0;
+}
+
+.subsub {
+    margin: 0;
+    font-size: 2.5em;
+    padding-bottom: 0.5em;
+    line-height: 1.1em;
+    font-family: "Momcake";
+}
+
+header{
+    background-color: #FC867D;
+    height: 5em;
+    margin-bottom:2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fa-user {
+    color: white;
+    font-size: 1.5em;
+    padding: 1em 1em;
+    margin: 0.5em;
+    cursor: pointer;
+}
+
+.fa-xmark {
+    color: white;
+    font-size: 1.6em;
+    padding: 1em 1em;
+    margin: 0.5em;
+    cursor: pointer;
+}
+
+.add {
+    max-width: 70%;
+    cursor: pointer;
+    text-align: center;
+    margin: 2em 1em;
+    padding:0.8em;
+    background-color: #FC867D;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(39, 26, 26, 0.2);
+}
+
+.add_eg {
+    background-color: #EF5064;
+}
+
+
+.subAddEg {
+    color: white!important;
+}
+
+#segundaSec {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#botonDoble {
+    justify-content: center;
+    display: flex;
+    width: 88%;
+}
+
+.fa-plus {
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+}
+
+
+.subAdd{
+    margin: 0.2em;
+    color: rgb(176, 8, 8);
+    font-weight: 500;
+    line-height: 1.3em;
+}
+
+.card{
+    width: 80%;
+    background-color: #f99f99;
+    box-shadow: 2px 2px 10px rgba(39, 26, 26, 0.2);
+    border-radius: 20px;
+    justify-content: space-between;
+    margin: auto;
+    padding: 1em 1.25em;
+    margin-bottom: 1em;
+}
+
+.s_columna {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.card_info {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.fecha_egre{color: white !important;}
+
+.egreso {background-color: #e85f71;}
+
+.sub_egreso {color:rgb(111, 5, 5)!important;}
+
+
+
+.ic_egreso {color:#ffffff!important}
+
+.fecha{ 
+    margin:0;
+    margin-top: 0.4em;
+    margin-bottom: 0.5em;
+    color: #ffffff;
+    font-size: 0.95em;
+}
+
+.hola{
+    display: flex;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin:0;
+    width: 50%;
+    flex-wrap: wrap;
+    margin-bottom: 0.2em;
+    align-items: baseline;
+}
+
+.sub_principal {
+    width: 40%;
+}
+#sumaEg{
+    word-wrap: break-word;
+}
+#sumaIn{
+    word-wrap: break-word;
+}
+#total{
+    width: 80%;
+}
+
+
+
+.blanco {color: white!important;}
+
+.h2{
+    margin:0;
+    width: 45%;
+    text-align: end;
+}
+
+.p{ width: 70%;
+    margin: 0;
+}
+.par_card2{
+    color: #ed3a52;
+    font-size: 0.8em;
+    margin: 0;
+    word-wrap: break-word;
+    line-height: 1.1em;
+}
+
+.sub_card {
+    color:rgb(3, 118, 3);
+    font-size: 1.3em;
+    margin: 0;
+    padding-right: 0.2em;
+    font-family: "Momcake";
+    width: 4em;
+    word-wrap: break-word;
+    text-align: end;
+    line-height: 1.2em;
+}
+
+.iconos {
+    text-align: right;
+    color: #ed3a52;
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.fa-sack-dollar {
+    color: #ed3a52;
+    padding-right: 0.3em;
+    font-size: 1em;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Momcake" ;
+    src: url(./recursos/momcake/Momcake-Bold.otf);
+}
+
+
+.titulo_sec {
+    font-size: 2em;
+    margin:0;
+    font-weight: 800;
+    color: #ee3049;
+    font-family: "Momcake";
+    text-align: center;
+    padding-bottom: 0.5em
+}
+
+
+.fa-arrow-left {
+    color:white;
+    font-size: 1.3em;
+    margin: 0;
+    position: absolute;
+    right:1em;
+    cursor: pointer;
+
+}
+
+.form {
+    margin: auto;
+    background-color: #f99f99;
+    padding: 2em;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(39, 26, 26, 0.2);
+    margin:2em
+}
+
+label {
+    display: block;
+    color: #ed3a52;
+    font-weight: 700;
+    padding: 0.1em 0;
+    font-size: 1.5em;
+    font-variant:all-small-caps;
+}
+
+.item_form {
+    background-color: #ffccc9;
+    width: 100%;
+    padding: 0.9em;
+    color: #790312;
+    font-size: 0.9em;
+    border-radius: 5px;
+    font-family: "Poppins";
+    box-shadow: 2px 2px 10px rgba(39, 26, 26, 0.2);
+    margin-bottom: 1em;
+}
+
+.eg{
+    color:rgb(186, 186, 186)
+}
+
+.btn {
+    margin: auto;
+    font-family: "Momcake";
+    color: white;
+    background-color: #ed3a52;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.btnDos {
+    background-color: white;
+    color:#ed3a52;
+    transition:all ease 0.3s
+}
+
+.btnTres{
+    background-color: rgb(174, 174, 174);
+}
+
+.btn_cont {
+    display: flex;
+    margin-top: 1.5em;
+}
+
+.tit {
+    text-align: center;
+    margin: auto;
+    display: flex;
+}
+
+.imagen {
+    border-radius: 200px;
+    border: 4px solid #ed3a52
+}
+
+figure {
+    margin: auto;
+    display: flex;
+}
+
+.contPersonal {
+    padding: 1.4em;
+    background-color: #f99f99;
+    box-shadow: 1px 5px 10px rgba(85, 15, 15, 0.318);
+    width: 80%;
+    margin: 2em auto;
+    border-radius: 15px;
+}
+
+ul {list-style: none;}
+
+.itemList {
+    font-size: 1.05em;
+    color: #ed3a52;
+    font-weight: 700;
+    padding-bottom: 1em; 
+}
+
+
+.nombres {
+    padding-left: 1em;
+}
+
+.datoList {
+    font-size: 1em;
+    font-family: "Poppins";
+    font-variant: normal;
+    color:white;
+    font-weight: 500;
+}
+

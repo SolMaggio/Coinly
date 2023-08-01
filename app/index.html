@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Urbanist:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/804bbb64aa.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="#">
+</head>
+<body>
+    <section class="vistas inicio">
+    <header>
+        <i class="fa-solid fa-xmark"></i>
+            <figure>
+                <img src="./recursos/LOGO.png">
+            </figure>
+
+            <i class="far fa-user"></i>
+    </header>
+
+    <main>
+        <section id="card_principal">
+            <div id="card_degrade">
+                <div id="total">
+                    <h1 id="titulo_principal">0</h1>
+                </div>
+                <div id="dosColumnas">
+                    <div id="ingresos" class="sub_principal">
+                        <h2 class="subtituloPrin">Ingresos</h2>
+                        <h3 class="subsub ing" id="sumaIn">0</h3>
+                    </div>
+                    <div id="egresos" class="sub_principal">
+                        <h2 class="subtituloPrin">Egresos</h2>
+                        <h3 class="subsub eg" id="sumaEg">0</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="segundaSec">
+            <div id="botonDoble">
+                <div id="ag_ing" class="add ">
+                    <i class="fa-solid fa-plus"></i>
+                    <h3 class="subAdd">Nuevo ingreso</h3>
+                </div>
+                <div id="ag_egr" class="add add_eg">
+                    <i class="fa-solid fa-plus"></i>
+                    <h3 class="subAdd subAddEg">Nuevo egreso</h3>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="agCard">
+            
+        </section>
+
+    </main>
+</section>
+
+
+    <section class="vistas ingresar">
+        <header class="header_sec">
+                <i class="fas fa-arrow-left"></i>
+                <figure>
+                    <img src="./recursos/LOGO.png">
+                </figure>
+
+                
+            </div>
+        </header>
+
+        <div>                
+
+
+            <form class="form" id="formIn">   
+                        
+                <h1 class="titulo_sec">
+                    Nuevo ingreso
+                </h1> 
+                <div>
+                    <label for="Monto">Monto:</label>
+                    <input class="item_form"  id="montoIn" name="Monto" type="number" placeholder="Monto" required>
+                </div> 
+
+                <div>
+                    <label for="De">De:</label>
+                    <input class="item_form" id="deIn" name="De" type="text" placeholder="De" required>
+                </div>
+
+                <div>
+                    <label for="Fecha">Fecha de ingreso:</label>
+                    <input class="item_form" id="fechaIn" name="Fecha" type="date">
+                </div>
+                <div class="btn_cont">
+                    <input class="btn" type="submit" value="Guardar">
+                </div>
+            </form>
+        </div>
+        
+
+    </section>
+
+    <section class="vistas egresar">
+        <header class="header_sec">
+            <i class="fas fa-arrow-left"></i>
+
+            <figure>
+                <img src="./recursos/LOGO.png">
+            </figure>
+
+            
+        </header>            
+        
+
+        <div>
+            <form class="form" id="forEg">
+
+                <h1 class="titulo_sec">
+                Nuevo egreso
+                </h1>
+
+                <div>
+                    <label for="Monto">Monto:</label>
+                    <input class="item_form" id="montoEg" name="Monto" type="number" placeholder="Monto" required>
+                </div> 
+
+                <div>
+                    <label for="Notas">Notas:</label>
+                    <input class="item_form"  id="notasEg" name="Notas" type="text" placeholder="Notas" required>
+                </div>
+
+                <div>
+                    <label for="Date">Fecha de envío:</label>
+                    <input class="item_form"  id="fechaEg" name="Date" type="date">
+                </div>
+            <div class="btn_cont">
+                <input class="btn" type="submit" value="Guardar">
+            </div>                
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <section class="vistas modIn">
+        <header class="header_sec"> 
+            <i class="fas fa-arrow-left"></i>
+            <figure>
+                <img src="./recursos/LOGO.png">
+            </figure>
+        
+        </header>
+
+        <div>
+            <form class="form" id="forModIn">            
+                <h1 class="titulo_sec">
+                Modificar ingreso
+                </h1>
+                <div>
+                    <label for="Monto">Monto:</label>
+                    <input class="item_form"  id="montoModIn" name="Monto" type="number" placeholder="Monto" required>
+                </div> 
+
+                <div>
+                    <label for="De">De:</label>
+                    <input class="item_form" id="deModIn" name="De" type="text" placeholder="De" required>
+                </div>
+
+                <div>
+                    <label for="Fecha">Fecha de ingreso:</label>
+                    <input class="item_form" id="fechaModIn" name="Fecha" type="date">
+                </div>
+            <div class="btn_cont">
+                <input class="btn" type="submit" value="Guardar">
+            </div>                
+            </form>
+
+        </div>
+
+    </section>
+
+    <section class="vistas modEg">
+        <header class="header_sec">
+            <i class="fas fa-arrow-left"></i>
+            <figure>
+                <img src="./recursos/LOGO.png">
+            </figure>
+            
+        </header>
+
+        <div >
+            <form class="form" id="forModEg">            
+                <h1 class="titulo_sec">
+                Modificar egreso
+            </h1>
+                <div>
+                    <label for="Monto">Monto:</label>
+                    <input class="item_form" id="montoModEg" name="Monto" type="number" placeholder="Monto" required>
+                </div> 
+
+                <div>
+                    <label for="Notas">Notas:</label>
+                    <input class="item_form" id="notasModEg" name="Notas" type="text" placeholder="Notas" required>
+                </div>
+
+                <div>
+                    <label for="Date">Fecha de envío:</label>
+                    <input class="item_form" id="fechaModEg" name="Date" type="date">
+                </div>
+            <div class="btn_cont">
+                <input class="btn" type="submit" value="Guardar">
+            </div>                
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <section class="vistas personas">
+
+        <header class="header_sec">
+            <i class="fas fa-arrow-left"></i>
+            <figure>
+                <img src="./recursos/LOGO.png">
+            </figure>
+            
+            
+        </header>
+
+        <section>
+            <div>
+                <h1 class="titulo_sec">Datos personales</h1>
+                <div>
+                    <figure >
+                        <img class="imagen" src="./recursos/personas.jpg">
+                    </figure>
+                </div>
+
+                <div class="contPersonal">
+                    <ul>
+                        <li class="itemList">ALUMNOS:
+                            <ul class="nombres">
+                                <li class="datoList">Nicole Gómez</li>
+                                <li class="datoList">Lucía Pedemonte</li>
+                                <li class="datoList">Sol Maggio</li>
+                            </ul>
+                        </li>
+
+                        <li class="itemList">COMISIÓN: <span class="datoList">DMM3A</span></li>
+                        <li class="itemList">MATERIA: <span class="datoList">Diseño y programación Web 1</span></li>
+                        <li class="itemList">DOCENTE: <span class="datoList">Omar Toyos</span></li>
+                        <li class="itemList">AÑO: <span class="datoList">2023</span></li>
+
+                        
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
